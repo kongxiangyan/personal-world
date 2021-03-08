@@ -5,20 +5,20 @@ const PUBLIC_PATH = '/' // '/'
 export const CSS_CDN_ORIGIN = 'https://fonts.googleapis.cnpmjs.org/'
 
 const commonTemplate = {
-  title: 'Hello, Mobius Project!',
-  whisper: 'The author is looking for a job as a product manager \\n             For a quickest preview of his info, check https://example.com/',
+  title: 'Hey, welcome!',
+  whisper: 'The owner is looking for a job as a product manager | business manager \\n             For a quickest preview of his info, check https://www.cigaret.world',
   fonts: [
     // `${PUBLIC_PATH}statics/fonts/Workbench[wdth,wght].woff2`,
     // `${PUBLIC_PATH}statics/fonts/Sixtyfour[wdth,wght].woff2`
   ],
   asyncCss: [
-    `${CSS_CDN_ORIGIN}css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap`,
-    `${CSS_CDN_ORIGIN}css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap`,
-    `${CSS_CDN_ORIGIN}css2?family=Noto+Sans+SC:wght@100;300;400;500;700;900&display=swap`,
-    `${CSS_CDN_ORIGIN}css2?family=Noto+Serif+SC:wght@200;300;400;500;600;700;900&display=swap`
+    // `${CSS_CDN_ORIGIN}css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap`,
+    // `${CSS_CDN_ORIGIN}css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap`,
+    // `${CSS_CDN_ORIGIN}css2?family=Noto+Sans+SC:wght@100;300;400;500;700;900&display=swap`,
+    // `${CSS_CDN_ORIGIN}css2?family=Noto+Serif+SC:wght@200;300;400;500;600;700;900&display=swap`
   ],
   css: [
-    'https://cdn.jsdelivr.net/npm/@we-mobius/mobius-ui@latest'
+    // 'https://cdn.jsdelivr.net/npm/@we-mobius/mobius-ui@latest'
   ],
   scripts: [],
   // generator: https://favicon.io/favicon-converter/
@@ -78,7 +78,7 @@ const commonTemplate = {
               <div class="svg-loading" style="width: 45px; height: 45px;"></div>
             </p>
             <p>
-              Mobius Template Project!
+              Be Proud of Mobius!
             </p>
           </div>
         </div>

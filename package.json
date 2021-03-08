@@ -1,7 +1,7 @@
 {
-  "name": "template",
+  "name": "personal-world",
   "version": "0.1.0",
-  "description": "Mobius flavor project templates.",
+  "description": "Personal website.",
   "type": "module",
   "main": "./src/main.js",
   "exports": {
@@ -21,7 +21,7 @@
   },
   "module": "./src/main.js",
   "keywords": [
-    ""
+    "cigaret", "personal website", "mobius"
   ],
   "directories": {
     "doc": "docs"
@@ -39,7 +39,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/we-mobius/template.git"
+    "url": "git+https://github.com/kongxiangyan/personal-world.git"
   },
   "author": {
     "name": "kongxiangyan",
@@ -48,16 +48,16 @@
   },
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/we-mobius/template/issues"
+    "url": "https://github.com/kongxiangyan/personal-world/issues"
   },
-  "homepage": "https://github.com/we-mobius/template#readme",
+  "homepage": "https://github.com/kongxiangyan/personal-world#readme",
   "devDependencies": {
     "@babel/core": "^7.10.5",
     "@babel/plugin-transform-runtime": "^7.10.5",
     "@babel/preset-env": "^7.10.4",
     "@commitlint/cli": "^8.3.5",
     "@fullhuman/postcss-purgecss": "^2.1.2",
-    "autoprefixer": "^9.7.6",
+    "autoprefixer": "^10.2.4",
     "babel-loader": "^8.1.0",
     "clean-webpack-plugin": "^3.0.0",
     "commitizen": "^4.0.5",
@@ -80,7 +80,7 @@
     "lint-staged": "^10.2.2",
     "mini-css-extract-plugin": "^1.3.3",
     "mini-svg-data-uri": "^1.1.3",
-    "postcss": "^7.0.28",
+    "postcss": "^8.2.6",
     "postcss-advanced-variables": "^3.0.1",
     "postcss-extend-rule": "^3.0.0",
     "postcss-import": "^12.0.1",
@@ -88,7 +88,7 @@
     "postcss-loader": "^4.1.0",
     "postcss-preset-env": "^6.7.0",
     "style-loader": "^1.2.1",
-    "tailwindcss": "^1.4.4",
+    "tailwindcss": "^2.0.3",
     "terser-webpack-plugin": "^5.0.3",
     "url-loader": "^4.1.0",
     "webpack": "^5.10.3",
